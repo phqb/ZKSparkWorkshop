@@ -34,6 +34,10 @@ So running example 1 would be:
 
 `protostar test test/test_ex1.cairo`
 
+We can print stdout when running test with the `--stdout-on-success` option. For example:
+
+`protostar test --stdout-on-success test/test_ex1.cairo`
+
 **All tests should pass without any modification of the test files.**
 
 **Hence you must only modify the `.cairo` files in the `/exercises/` directory.**
